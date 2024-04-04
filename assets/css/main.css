@@ -9,6 +9,54 @@
 */
 
 /* Reset */
+#dp {
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(  rgb(228, 224, 224), rgb(228, 224, 224));
+	background-repeat: no-repeat;
+	background-position: -780px 0;
+	animation: backcolor 12s linear infinite alternate;
+  }
+
+  @keyframes backcolor{
+100%{
+  background-position: 0 0;
+}
+  }
+
+
+  #cp {
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(  green, green);
+	background-repeat: no-repeat;
+	background-position: -780px 0;
+	animation: backcolor 12s linear infinite alternate;
+  }
+
+  @keyframes backcolor{
+100%{
+  background-position: 0 0;
+}
+  }
+
+  @media screen and (max-width: 480px) {
+	#dp {
+		-webkit-background-clip: text;
+		color: transparent;
+		background-image: linear-gradient(  rgba(235, 236, 240, 0.363),rgba(235, 236, 240, 0.363));
+		background-repeat: no-repeat;
+		background-position: -780px 0;
+		animation: backcolor 11s linear infinite alternate;
+	  }
+	
+	  @keyframes backcolor{
+	100%{
+	  background-position: 0 0;
+	}
+	  }
+
+	}
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -176,7 +224,7 @@ text-align: center;
 		cursor: pointer;
 		outline: none;
 		color: rgb(7, 6, 6);
-		background-color: rgb(132, 150, 250);
+		background-color: rgb(243, 200, 10);
 		border-radius: 15px;
 		box-shadow: 0 9px #999;
 		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
